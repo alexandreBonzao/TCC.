@@ -1,0 +1,112 @@
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    background-color: #3d7e60;
+}
+
+.container{
+    margin-top: -35%;
+    width: 70%;
+    height: 46%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.produto{
+    display: flex;
+    float: left;
+}
+
+.img{
+    background-color: #f0f0f0;
+    margin: 2%;
+    height: 50vh;
+    width: 100vh;
+    border: 2px solid #3d7e60;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+}
+
+.conteudo{
+    width: 100%;
+}
+
+.conteudo input::placeholder {
+    color: #969696;
+}
+
+.conteudo .titulo input{
+    background-color: #f0f0f0;
+    margin-top: 3%;
+    color: rgb(63, 63, 63);
+    text-shadow: none;
+    font-size: 2em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.conteudo .desc input{
+    background-color: #f0f0f0;
+    height: 20vh;
+    width: 96%;
+    margin-top: 4%;
+    color: rgb(63, 63, 63);
+    text-shadow: none;
+    font-size: 1.7em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conteudo .endereco input{
+    background-color: #f0f0f0;
+    margin-top: 4%;
+    color: rgb(63, 63, 63);
+    text-shadow: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conteudo .preco input{
+    background-color: #f0f0f0;
+    width: 37%;
+    margin-top: 4%;
+    color: rgb(63, 63, 63);
+    text-shadow: none;
+    font-size: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.conte{
+    display: flex;
+}
+
+.contato h1{
+    font-size: 1.8em;
+    text-shadow: none;
+    margin-left: 2%;
+}
+
+.conte input{
+    background-color: #f0f0f0;
+    margin-left: 2%;
+    color: rgb(63, 63, 63);
+    text-shadow: none;
+    font-size: 1em;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+

@@ -1,0 +1,84 @@
+.tudo {
+    display: flex;
+    background-color: #2D6A4F;
+    height: 20%;
+}
+
+@media (max-width: 600px) {
+    .tudo {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.cubao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #57a884;
+    width: 15%;
+    height: auto;
+    margin-left: 7.9%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+@media (max-width: 600px) {
+    .cubao{
+        background-color: #57b188;
+        width: 30%;
+    }
+}
+.cubao:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.botao {
+    color: #cfebde;
+    text-shadow: none;
+    border: none;
+    background-color: #133a28;
+    letter-spacing: 0.4%;
+}
+
+.botao:hover {
+    letter-spacing: 0.4%;
+    background-color: #091d14;
+}
+
+.sla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    cursor: default;
+    letter-spacing: 0.02em;
+    margin-top: 5px;
+    color: black;
+    font-family: 'arial';
+    text-align: center;
+    text-shadow: none;
+}
+
+.img {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: 37%;
+}
+
+.descricao {
+    cursor: default;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+    text-shadow: none;
+    font-size: 100%;
+}

@@ -1,0 +1,138 @@
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    background-color: #3d7e60;
+}
+
+.container{
+    margin-top: -35%;
+    width: 70%;
+    height: 45%;
+    background-color: #2D6A4F;
+    border-radius: 8px;
+}
+@media (max-width: 416px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.titulo h1{
+    text-shadow: none;
+    font-size: 1.8em;
+    letter-spacing: 0.04em;
+    color: rgb(190, 188, 188);
+}
+
+.conteudo{
+    height:100%;
+    margin-left: 2%;
+}
+
+.conteudo .pessoais{
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    border-top: 2px #438f6d solid;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+.conteudo .endereco{
+    border-top: 2px #438f6d solid;
+    border-bottom: 2px #438f6d solid;
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin-top: 0%;
+    padding-top: 2%;
+}
+
+.info .titulo h1{
+    color: rgb(196, 196, 196);
+    font-size: 1.4em;
+    text-shadow: none;
+}
+
+.info{
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.info h1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    text-shadow: none;
+}
+
+.pessoais .editar{
+    text-shadow: none;
+    font-size: 1em;
+    background-color: #3d7e60;
+    border: none;
+    letter-spacing: 0.02em;
+}
+
+.gambiarra{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    margin-right: 1.5%;
+    margin-bottom: 5%;
+}
+
+.endereco .editar{
+    margin-top: 30%;
+    text-shadow: none;
+    font-size: 1em;
+    background-color: #3d7e60;
+    border: none;
+    
+}
+
+.editar:hover{
+    background-color: #23553e;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;  
+  width: 90%;
+  font-size: 1.8;
+}
+
+.barra input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  text-shadow: none;
+  background-color: rgba(255, 255, 255, 0.137);
+  color: #06271e;
+}
+
+.barra input::placeholder {
+  color: #bdbdbd;
+}
+
+.barra input:focus {
+  outline: none; 
+  border: 1px solid #093629; 
+  background-color: #749b89;
+}
+
+.barra input:focus::placeholder{
+    color: #06271eb9;
+}
+
+.pessoais{
+    padding: 0%;
+    margin-right: 5vw;
+}
